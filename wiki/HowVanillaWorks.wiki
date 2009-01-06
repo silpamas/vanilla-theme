@@ -56,13 +56,13 @@ All in CSS with not a single line of PHP or HTML code added. That’s Sandbox!
 =Carrington Atomic Templates=
 
 Alex King and his team are geniuses and they’ve come up with the Carrington theme. He writes:
-{{{
-Carrington is an attempt to better abstract WordPress theme organization, and simplify commonly needed theme functionality.
 
-Theme functionality is broken up into thoughtfully crafted abstractions to enable customizations at different levels (the loop, the post/page content, comments, etc.) and a context-aware hierarchical template override system that chooses which template to be used for each segment of the theme.
+    Carrington is an attempt to better abstract WordPress theme organization, and simplify commonly needed theme functionality.
 
-The abstractions and supported template types are designed to easily handle most of the customization scenarios we commonly see.
-}}}
+    Theme functionality is broken up into thoughtfully crafted abstractions to enable customizations at different levels (the loop, the post/page content, comments, etc.) and a context-aware hierarchical template override system that chooses which template to be used for each segment of the theme.
+
+    The abstractions and supported template types are designed to easily handle most of the customization scenarios we commonly see.
+
 For more on what Carrington does (to which Vanilla adds a whole lot more), [http://crowdfavorite.com/wordpress/carrington/readme/ read this].
 
 =Hooks Everywhere!=
