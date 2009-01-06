@@ -1,4 +1,4 @@
-_How to get the source._
+#summary How to get the source.
 
 This code is hosted in [http://git-scm.com/ git] and can be checked out using the following command:
 {{{
