@@ -1,0 +1,25 @@
+#summary How to install Vanilla.
+
+You’ve unzipped vanilla.zip and you’re reading this page. _Wise move :)_
+
+  # Set up a fresh install of WordPress 2.7 and delete the Hello World default blog post and the About page, both of which were created as part of the WordPress installation. Delete these before the next step.
+    *   Note: Anything other than a fresh install, and I can’t promise this will work flawlessly! 
+  # Go to Admin > Tools > Import and use the WordPress option to import the included XML file. It includes some good dummy data (posts, pages, comments, etc). 
+  # Upload both folders (vanilla and blogologist) to your WordPress themes directory. In Admin > Appearance > Themes, activate the Blogologist theme -- a child theme of Vanilla. It is a “port” of the Carrington theme’s default look (I’m lazy!). 
+  # CHMOD 777 the wp-content/themes/vanilla/cache directory. 
+  # In Admin > Appearance > Widgets, activate the following widgets into their respective “default” widget blocks (aka “sidebars”): 
+    * Site-wide Branding -> Header
+    * Main Menu/Navigation -> Main Menu
+    * Search Form and Categories Menu -> Sub Menu (Search Form first)
+    * Links (blogroll) and Categories -> Primary Sidebar
+    * Recent Posts and Recent Comments -> Secondary Sidebar
+    * Site Credits -> Footer  
+  # Go to the Admin > Appearance > Vanilla Layout page and select: 
+    * Width: 974 pixels, centered
+    * Outer Column: 180 pixels, to the right
+    * Inner Column: narrow (25%), to the right
+    * Utility Columns: 3 cols.  All else can remain as it. Now save those changes. 
+
+Fingers crossed, if you now go to the front page of your blog you’ll have something that looks vaguely like this: http://www.vanillatheme.com.￼
+
+That’s it! You’ve installed Vanilla.
